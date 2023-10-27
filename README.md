@@ -2,7 +2,7 @@
 Have you ever wondered how Array methods work under the hood? Do you wish to know what algorithms they use to work their magic? Well I have, and if you're are like me then you have too. So I decided to recreate them to discover what they are actually made of. Please leave a star on this repository if you find this helpful in any way.
 
 <!-- The pop method code section -->
-## 1 <code>.pop()</code>
+## <code>.pop()</code>
 The <strong>pop</strong> method removes the last item of the array and returns that item.
 
 <strong>ALGORITHM</strong>
@@ -30,7 +30,7 @@ pop(arr);
 ```
 
 <!-- The push method code section -->
-## 2 <code>.push()</code>
+## <code>.push()</code>
 The <strong>push</strong> method adds a new item to the end of an array and returns the length of the array.
 
 <strong>ALGORITHM</strong>
@@ -54,7 +54,7 @@ push(arr);
 ```
 
 <!-- The shift method code section -->
-## 3 <code>.shift()</code>
+## <code>.shift()</code>
 The <strong>shift</strong> method removes the first item of the array and returns that item.
 
 <strong>ALGORITHM</strong>
@@ -82,7 +82,7 @@ shift(arr);
 ```
 
 <!-- The unshift method code section -->
-## 4 <code>.unshift()</code>
+## <code>.unshift()</code>
 The <strong>unshift</strong> method
 
 ```js
@@ -94,7 +94,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 ```
 
 <!-- The map method code section -->
-## 5 <code>.map()</code>
+## <code>.map()</code>
 The <strong>map</strong> method 
 
 ```js
@@ -106,7 +106,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 ```
 
 <!-- The filter method code section -->
-## 6 <code>.filter()</code>
+## <code>.filter()</code>
 The <strong>filter</strong> method 
 
 ```js
@@ -118,7 +118,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 ```
 
 <!-- The reduce method code section -->
-## 7 <code>.reduce()</code>
+## <code>.reduce()</code>
 The <strong>reduce</strong> method 
 ```js
 let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
