@@ -4,7 +4,7 @@ Have you ever wondered how Array methods work under the hood? Do you wish to kno
 
 
 <!-- The pop method code section -->
-## 1<code>.pop()</code>
+## <code>.pop()</code>
 The <strong>pop</strong> method removes the last item of the array and returns that item.
 
 <strong>ALGORITHM</strong>
@@ -34,7 +34,7 @@ pop(arr);
 <br>
 
 <!-- The push method code section -->
-## 2<code>.push()</code>
+## <code>.push()</code>
 The <strong>push</strong> method adds a new item to the end of an array and returns the new length of the array.
 
 <strong>ALGORITHM</strong>
@@ -60,7 +60,7 @@ push(arr, "Grand Kru");
 <br>
 
 <!-- The shift method code section -->
-## 3<code>.shift()</code>
+## <code>.shift()</code>
 The <strong>shift</strong> method removes the first item of the array and returns that item.
 
 <strong>ALGORITHM</strong>
@@ -90,7 +90,7 @@ shift(arr);
 <br>
 
 <!-- The unshift method code section -->
-## 4<code>.unshift()</code>
+## <code>.unshift()</code>
 The <strong>unshift</strong> method adds an item to the beginning of the array and returns the new length of the array.
 
 <strong>ALGORITHM</strong>
@@ -122,7 +122,7 @@ unshift(arr, "Grand Kru");
 <br>
 
 <!-- The map method code section -->
-## 5<code>.map()</code>
+## <code>.map()</code>
 The <strong>map</strong> method 
 
 <br>
@@ -146,7 +146,7 @@ map(arr);
 <br>
 
 <!-- The filter method code section -->
-## 6<code>.filter()</code>
+## <code>.filter()</code>
 The <strong>filter</strong> method 
 
 <br>
@@ -162,7 +162,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The reduce method code section -->
-## 7<code>.reduce()</code>
+## <code>.reduce()</code>
 The <strong>reduce</strong> method 
 
 <br>
@@ -178,7 +178,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The reduceRight method code section -->
-## 8<code>.reduceRight()</code>
+## <code>.reduceRight()</code>
 The <strong>reduceRight</strong> method 
 
 <br>
@@ -194,7 +194,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The slice method code section -->
-## 9<code>.slice()</code>
+## <code>.slice()</code>
 The <strong>slice</strong> method 
 
 <br>
@@ -210,7 +210,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The splice method code section -->
-## 10<code>.splice()</code>
+## <code>.splice()</code>
 The <strong>splice</strong> method 
 
 <br>
@@ -226,7 +226,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The forEach method code section -->
-## 11<code>.forEach()</code>
+## <code>.forEach()</code>
 The <strong>forEach</strong> method 
 
 <br>
@@ -242,7 +242,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The includes method code section -->
-## 12<code>.includes()</code>
+## <code>.includes()</code>
 The <strong>includes</strong> method 
 
 <br>
@@ -258,7 +258,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The find method code section -->
-## 13<code>.find()</code>
+## <code>.find()</code>
 The <strong>find</strong> method 
 
 <br>
@@ -274,7 +274,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The some method code section -->
-## 14<code>.some()</code>
+## <code>.some()</code>
 The <strong>some</strong> method 
 
 <br>
@@ -290,7 +290,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The every method code section -->
-## 15<code>.every()</code>
+## <code>.every()</code>
 The <strong>every</strong> method 
 
 <br>
@@ -306,7 +306,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The sort method code section -->
-## 16<code>.sort()</code>
+## <code>.sort()</code>
 The <strong>sort</strong> method 
 
 <br>
@@ -322,7 +322,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The reverse method code section -->
-## 17<code>.reverse()</code>
+## <code>.reverse()</code>
 The <strong>reverse</strong> method 
 
 <br>
@@ -338,7 +338,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The findIndex method code section -->
-## 18<code>.findIndex()</code>
+## <code>.findIndex()</code>
 The <strong>findIndex</strong> method 
 
 <br>
@@ -354,7 +354,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The indexOf method code section -->
-## 19<code>.indexOf()</code>
+## <code>.indexOf()</code>
 The <strong>indexOf</strong> method 
 
 <br>
@@ -370,7 +370,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The lastIndexOf method code section -->
-## 20<code>.lastIndexOf()</code>
+## <code>.lastIndexOf()</code>
 The <strong>lastindexOf</strong> method 
 
 <br>
@@ -386,7 +386,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The concat method code section -->
-## 21<code>.concat()</code>
+## <code>.concat()</code>
 The <strong>concat</strong> method 
 
 <br>
@@ -402,7 +402,7 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 <br>
 
 <!-- The join method code section -->
-## 22<code>.join()</code>
+## <code>.join()</code>
 The <strong>join</strong> method 
 
 <br>
