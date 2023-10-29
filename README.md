@@ -33,6 +33,13 @@ pop(arr);
 
 <br>
 
+<strong>RESULT</strong>
+```js
+"Sinoe"
+```
+
+<br>
+
 <!-- The push method code section -->
 ## <code>.push()</code>
 The <strong>push</strong> method adds a new item to the end of an array and returns the new length of the array.
@@ -55,6 +62,13 @@ const push = (array, item) => {
 } 
 
 push(arr, "Grand Kru");
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
+10
 ```
 
 <br>
@@ -85,6 +99,13 @@ const shift = (array) => {
 } 
 
 shift(arr);
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
+"Montserrado"
 ```
 
 <br>
@@ -121,9 +142,22 @@ unshift(arr, "Grand Kru");
 
 <br>
 
+<strong>RESULT</strong>
+```js
+10
+```
+
+<br>
+
 <!-- The map method code section -->
 ## <code>.map()</code>
-The <strong>map</strong> method 
+The <strong>map</strong> method runs a function on each item of the current array and returns the result in a new array.
+
+<strong>ALGORITHM</strong>
++ Create a new array
++ Loop over the current array
++ Run an IIFE on each item of the current array and add the return value to the new array
++ Return the new array
 
 <br>
 
@@ -145,6 +179,13 @@ map(arr);
 
 <br>
 
+<strong>RESULT</strong>
+```js
+['Montserrado County', 'Margibi County', 'Lofa County', 'Nimba County', 'Maryland County', 'Rivercess County', 'Gbarpolu County', 'Bomi County', 'Sinoe County']
+```
+
+<br>
+
 <!-- The filter method code section -->
 ## <code>.filter()</code>
 The <strong>filter</strong> method 
@@ -157,6 +198,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -177,6 +224,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The reduceRight method code section -->
 ## <code>.reduceRight()</code>
 The <strong>reduceRight</strong> method 
@@ -189,6 +242,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -209,6 +268,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The splice method code section -->
 ## <code>.splice()</code>
 The <strong>splice</strong> method 
@@ -221,6 +286,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -241,6 +312,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The includes method code section -->
 ## <code>.includes()</code>
 The <strong>includes</strong> method 
@@ -253,6 +330,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -273,6 +356,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The some method code section -->
 ## <code>.some()</code>
 The <strong>some</strong> method 
@@ -285,6 +374,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -305,6 +400,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The sort method code section -->
 ## <code>.sort()</code>
 The <strong>sort</strong> method 
@@ -317,6 +418,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -337,6 +444,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The findIndex method code section -->
 ## <code>.findIndex()</code>
 The <strong>findIndex</strong> method 
@@ -349,6 +462,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -369,6 +488,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The lastIndexOf method code section -->
 ## <code>.lastIndexOf()</code>
 The <strong>lastindexOf</strong> method 
@@ -381,6 +506,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
@@ -401,6 +532,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 <br>
 
+<strong>RESULT</strong>
+```js
+```
+
+<br>
+
 <!-- The join method code section -->
 ## <code>.join()</code>
 The <strong>join</strong> method 
@@ -413,6 +550,12 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 
+```
+
+<br>
+
+<strong>RESULT</strong>
+```js
 ```
 
 <br>
