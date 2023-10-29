@@ -1,8 +1,10 @@
 # JavaScript Array Method Algorithm
 Have you ever wondered how Array methods work under the hood? Do you wish to know what algorithms they use to work their magic? Well I have, and if you're are like me then you have too. So I decided to recreate them to discover what they are actually made of. Please leave a star on this repository if you find this helpful in any way.
 
+
+
 <!-- The pop method code section -->
-## <code>.pop()</code>
+## 1<code>.pop()</code>
 The <strong>pop</strong> method removes the last item of the array and returns that item.
 
 <strong>ALGORITHM</strong>
@@ -29,13 +31,15 @@ const pop = array => {
 pop(arr);
 ```
 
+<br>
+
 <!-- The push method code section -->
-## <code>.push()</code>
-The <strong>push</strong> method adds a new item to the end of an array and returns the length of the array.
+## 2<code>.push()</code>
+The <strong>push</strong> method adds a new item to the end of an array and returns the new length of the array.
 
 <strong>ALGORITHM</strong>
 + Check to see if an item was passed or not
-+ Add new item to the end of the array
++ Add the new item to the end of the array
 + Return the length of the array
 
 <br>
@@ -50,11 +54,13 @@ const push = (array, item) => {
   return array.length;
 } 
 
-push(arr);
+push(arr, "Grand Kru");
 ```
 
+<br>
+
 <!-- The shift method code section -->
-## <code>.shift()</code>
+## 3<code>.shift()</code>
 The <strong>shift</strong> method removes the first item of the array and returns that item.
 
 <strong>ALGORITHM</strong>
@@ -81,34 +87,70 @@ const shift = (array) => {
 shift(arr);
 ```
 
+<br>
+
 <!-- The unshift method code section -->
-## <code>.unshift()</code>
-The <strong>unshift</strong> method
+## 4<code>.unshift()</code>
+The <strong>unshift</strong> method adds an item to the beginning of the array and returns the new length of the array.
+
+<strong>ALGORITHM</strong>
++ Check to see if an item was passed or not
++ Create a new array and assign the new item to it
++ Loop over the current array and add the items to the new array
++ Overwrite the current array with the new array
++ Return the new length of the current array
+
+<br>
 
 ```js
 let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
 
+const unshift = (array, item) => {
+  if (item !== undefined){
+    let newArray = [item];
+    for (let i=0; i<array.length; i++){
+      newArray[i+1] = array[i];
+    }
+    arr = newArray;
+  }
+  return arr.length;
+}
 
-
-
+unshift(arr, "Grand Kru");
 ```
+
+<br>
 
 <!-- The map method code section -->
-## <code>.map()</code>
+## 5<code>.map()</code>
 The <strong>map</strong> method 
 
+<br>
+
 ```js
 let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
 
+const map = array => {
+  let newArray = [];
+  for (let i=0; i<array.length; i++){
+    newArray[i] = function() {
+      return array[i] + " County";
+    }();
+  }
+  return newArray;
+}
 
-
-
+map(arr);
 ```
+
+<br>
 
 <!-- The filter method code section -->
-## <code>.filter()</code>
+## 6<code>.filter()</code>
 The <strong>filter</strong> method 
 
+<br>
+
 ```js
 let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
 
@@ -116,10 +158,15 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 ```
+
+<br>
 
 <!-- The reduce method code section -->
-## <code>.reduce()</code>
+## 7<code>.reduce()</code>
 The <strong>reduce</strong> method 
+
+<br>
+
 ```js
 let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
 
@@ -127,3 +174,245 @@ let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "
 
 
 ```
+
+<br>
+
+<!-- The reduceRight method code section -->
+## 8<code>.reduceRight()</code>
+The <strong>reduceRight</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The slice method code section -->
+## 9<code>.slice()</code>
+The <strong>slice</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The splice method code section -->
+## 10<code>.splice()</code>
+The <strong>splice</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The forEach method code section -->
+## 11<code>.forEach()</code>
+The <strong>forEach</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The includes method code section -->
+## 12<code>.includes()</code>
+The <strong>includes</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The find method code section -->
+## 13<code>.find()</code>
+The <strong>find</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The some method code section -->
+## 14<code>.some()</code>
+The <strong>some</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The every method code section -->
+## 15<code>.every()</code>
+The <strong>every</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The sort method code section -->
+## 16<code>.sort()</code>
+The <strong>sort</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The reverse method code section -->
+## 17<code>.reverse()</code>
+The <strong>reverse</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The findIndex method code section -->
+## 18<code>.findIndex()</code>
+The <strong>findIndex</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The indexOf method code section -->
+## 19<code>.indexOf()</code>
+The <strong>indexOf</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The lastIndexOf method code section -->
+## 20<code>.lastIndexOf()</code>
+The <strong>lastindexOf</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The concat method code section -->
+## 21<code>.concat()</code>
+The <strong>concat</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
+
+<!-- The join method code section -->
+## 22<code>.join()</code>
+The <strong>join</strong> method 
+
+<br>
+
+```js
+let arr = ["Montserrado", "Margibi", "Lofa", "Nimba", "Maryland", "Rivercess", "Gbarpolu", "Bomi", "Sinoe"];
+
+
+
+
+```
+
+<br>
